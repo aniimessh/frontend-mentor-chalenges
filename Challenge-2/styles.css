@@ -1,0 +1,55 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color:hsl(0, 0%, 98%) ;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-logo{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.nav-items{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+.login-btn{
+    background:none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    color: hsl(0, 0%, 41%);
+}
+
+.register-btn{
+    background: none;
+    border: 1px solid hsl(0, 0%, 41%);
+    border-radius: 15px;
+    width: 110px;
+    height: 40px;
+    color: hsl(0, 0%, 41%);
+}
