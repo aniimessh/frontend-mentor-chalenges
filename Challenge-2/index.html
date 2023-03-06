@@ -10,26 +10,64 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
   <title>Frontend-Mentor Challenge-2</title>
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div class="wrapper">
-      <div class="navbar">
-        <div class="left-section">
-        <p class="nav-logo">snap</p>
+    <div class="navbar">
+      <div class="left-section">
+        <p class="nav-logo"><img src="./images/logo.svg" alt=""></p>
         <ul class="nav-items">
-          <li class="nav-items">Features</li>
-          <li class="nav-items">Company</li>
-          <li class="nav-items">Careers</li>
-          <li class="nav-items">About</li>
+          <div class="feature-section">
+            <li class="nav-items">Features
+              <img src="./images/icon-arrow-down.svg" height="7px" width="15px" class="arrow-down">
+            </li>
+          </div>
+          <div class="company-section">
+            <li class="nav-items">Company
+              <img src="./images/icon-arrow-down.svg" height="7px" width="15px" class="arrow-down">
+            </li>
+          </div>
+          <div class="career-section">
+            <li class="nav-items">Careers
+            </li>
+          </div>
+          <div class="about-section">
+            <li class="nav-items">About
+            </li>
+          </div>
         </ul>
       </div>
-        <div class="btn-section right-section">
-          <button class="login-btn">Login</button>
-          <button class="register-btn">Register</button>
+      <div class="btn-section right-section">
+        <button class="login-btn">Login</button>
+        <button class="register-btn">Register</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container-left-section">
+        <h2 class="hero-heading">Make <br>remote work</h2>
+        <p class="hero-description">Get your team in sync, no matter your location. <br> Streamline processes, create
+          team rituals, and <br> watch productivity soar.</p>
+        <button class="learn-btn">Learn more</button>
+        <div class="footer-img">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
         </div>
       </div>
+      <div class="container-right-section">
+        <img src="./images/image-hero-desktop.png" alt="herosection-image" height="700px">
+      </div>
+    </div>
   </div>
+  <script>
+    feather.replace()
+  </script>
 </body>
+
 </html>
